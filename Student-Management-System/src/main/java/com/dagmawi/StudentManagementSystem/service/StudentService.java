@@ -11,4 +11,6 @@ public interface StudentService {
     public Student saveStudent(Student student);
     public List<Student> getStudentList();
     public Student getStudentById(Long studentId);
+    public void deleteStudentById(Long studentId);
+    public Student updateStudentById(Long studentId, Student student);
 }
